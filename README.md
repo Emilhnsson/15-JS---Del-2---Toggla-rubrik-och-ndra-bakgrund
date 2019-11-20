@@ -1,2 +1,2 @@
-# 15-JS---Del-2---Toggla-rubrik-och-ndra-bakgrund
+# 15-JS---Del-2---Toggla-rubrik-och-ändra-bakgrund
 Webbutveckling - JavaScript
