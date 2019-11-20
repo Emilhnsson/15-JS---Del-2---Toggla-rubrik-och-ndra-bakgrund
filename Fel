@@ -26,3 +26,5 @@ function Wow() {
 function Wow2() {
     document.body.className = ("red");
 }
+
+Eller att ändra stylen på bodyn som gör att den ändrars hela tiden och ersätter den gamla som gör att problem inte kan uppstå
