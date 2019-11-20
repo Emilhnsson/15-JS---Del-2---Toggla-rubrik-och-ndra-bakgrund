@@ -1,0 +1,28 @@
+Ett sätt är att göra som jag där javascript kollar om det är en specifik färg och ändrar beroende på if statement:
+
+function darkMode() {
+    var body = document.body;
+    var bgSwitch = document.getElementById("switch");
+
+    if(body.style.backgroundColor != "black") {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+        
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    }
+    
+}
+
+Ett annat sätt kan vara att man behåller att använda klasser men att man använder className = istället för classList.add för att då
+ersätta alla klasser med den nya istället för att lägga till som gör att inte det fungerar:
+
+
+function Wow() {
+    document.body.className = ("dark");
+}
+
+function Wow2() {
+    document.body.className = ("red");
+}
